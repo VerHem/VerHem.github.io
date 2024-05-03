@@ -5,16 +5,3 @@ layout: default
 {{ content }}
 
 <h3 class="fw-bold border-bottom pb-3 mb-5">Install and Compile</h3>
-{% for topic in site.data.settings.Install_and_Compile %}
-<div class="row g-5 mb-5">
-  <div class="col-md-6">
-    <h5>{{ topic.name }}</h5>
-    <p>Email: {{ topic.email }}</p>
-    <p>Phone: {{ topic.phone }}</p>
-    <!---<p><a href="{{ site.github.url }}/install_and_compile/{{ person.url }}">More info</a></p>--->
-  </div>
-  <!--<div class="col-md-6">
-    <img src="{{ site.github.url }}/{{ person.image }}" alt="Contact" width="100%">
-  </div>-->
-</div>
-{% endfor %}
