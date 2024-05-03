@@ -1,6 +1,6 @@
 menu:
 - {name: 'Install and Compile', url: '/install'}
-- {name: 'Docs', url: '/publications'}
+- {name: 'Docs', url: '/docs'}
 - {name: 'Contributions', url: '/courses'}
 
 people:
