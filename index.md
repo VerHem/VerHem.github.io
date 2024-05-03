@@ -13,4 +13,4 @@ Aiming to modeling superfluid Helium-3 liquid, which is p-wave anisotropic topol
 
 VerHem featured with automated **adaptive mesh**, **scalability** upon memory distributed system, easily-controlled Dirichlet, Neumann, Robin or periodic boundary conditions of every tensor elements on simulation domains. On the right hand of this page, an simulation generated through VerHem is presented. With three time adaptive refinements and about 22 Millions Degree-of-Freedoms, this simulation box perfectly found B-phase with maximum pairing-breaking as solution.      
 
-## [Get Start!](https://www.duckduckgo.com)
+<button type="button" class="btn btn-outline-success" href="www.duckduckgo.com">Get Start!</button>
