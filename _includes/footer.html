@@ -1,14 +1,14 @@
 <footer class="pt-5 my-5 text-muted border-top">
   <div class="row">
+    <a href="https://tekniiquann.github.io" >This site is crated and maintained by Quang</a>
     <div class="col-md-6 text-end social-media-icons">
-      <a href="https://tekniiquann.github.io" >This site is crated and maintained by Quang</a>
       {% for item in site.data.settings.social %}
         <a href="{{ item.link }}" class="ms-3 fs-5">
           <i class="fab fa-{{ item.icon }}"></i>
         </a>
       {% endfor %}
-      <a href="https://www.csc.fi" >Acknowledgement to CSC-IT Center for Science of Finland</a>
-      <a href="https://www.lumi-supercomputer.eu" >and LUMI-Large Unified Modern Infrastructure consortium for HPC supports</a>
     </div>
+    <a href="https://www.csc.fi" >Acknowledgement to CSC-IT Center for Science of Finland</a>
+    <a href="https://www.lumi-supercomputer.eu" >and LUMI-Large Unified Modern Infrastructure consortium for HPC supports</a>
   </div>
 </footer>
