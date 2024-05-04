@@ -1,5 +1,5 @@
 menu:
-- {name: 'Install and Compile', url: '/install'}
+- {name: 'Install-Compile', url: '/install'}
 - {name: 'Docs', url: '/docs'}
 - {name: 'Contributions', url: '/courses'}
 
