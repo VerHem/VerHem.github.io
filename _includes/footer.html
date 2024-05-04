@@ -1,17 +1,20 @@
 <footer class="pt-5 my-5 text-muted border-top">
-  <div class="row">
-    <div class="col">
-      <a href="https://tekniiquann.github.io" >This site is crated and maintained by Quang</a>
-    </div>
-    <div class="col">
-      <div class="col-md-6 text-end social-media-icons">
-        {% for item in site.data.settings.social %}
-          <a href="{{ item.link }}" class="ms-3 fs-5">
-            <i class="fab fa-{{ item.icon }}"></i>
-          </a>
-        {% endfor %}
+  <div class="containers">
+    <div class="row justify-content-md-center">
+      <div class="col col-rg-2">
+        <a href="https://tekniiquann.github.io" >This site is crated and maintained by Quang</a>
       </div>
-    </div>
+      <div class="col col-lg-2">
+        <div class="col-md-6 text-end social-media-icons">
+          {% for item in site.data.settings.social %}
+            <a href="{{ item.link }}" class="ms-3 fs-5">
+              <i class="fab fa-{{ item.icon }}"></i>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+  </div>
+
 
     <!--<a href="https://www.csc.fi" >Acknowledgement to CSC-IT Center for Science of Finland</a>-->
     <!--<a href="https://www.lumi-supercomputer.eu" >and LUMI-Large Unified Modern Infrastructure consortium for HPC supports</a>-->
