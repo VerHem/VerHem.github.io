@@ -1,11 +1,11 @@
 menu:
 - {name: 'Install-Compile', url: '/install'}
 - {name: 'Docs', url: '/docs'}
-- {name: 'Contributions', url: '/courses'}
+- {name: 'Contributions', url: '/contributions'}
 
 documentations:
 - {topic: 'Installation Instructions'}
-- {topic: 'You first run'}
+- {topic: 'Your first run'}
 - {topic: 'Menu of VerHem'}
 
 courses:
