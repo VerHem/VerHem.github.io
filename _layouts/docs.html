@@ -5,12 +5,14 @@ layout: default
 {{ content }}
 
 {% include docs.html %}
-
 <div class="container">
 {% for topic in site.data.settings.documentations %}
 <div class="row g-5 mb-5">
   <div class="col-md-6">
     <h2 class="fs-3 fw-bold">{{ topic.topic }}
+        {% if topic.topic  == "Installation Instructions" %}
+          <a class="fw-4" href="{{ site.github.url }}/install"></a>
+        {% endif %}
     </h2>
   </div>
   <div class="col-md-6">
