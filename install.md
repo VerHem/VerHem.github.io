@@ -9,6 +9,7 @@ This page talks about how to get the source of VerHem as well as the other neces
 
 <h4 class="fw-bold border-bottom pb-3 mb-5">Getting source tree from GitLab mirror</h3>
 
+------------------
 ```shell
 $ git clone https://gitlab.com/verhem/verkko-hem-repo.git
 ```
