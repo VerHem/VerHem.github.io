@@ -21,5 +21,9 @@ then run **cmake** to configure the build system
 $ cd verkko-Hem-repo
 $ mkdir build && cd build
 $ cmake ..
+```
+after then, build the binary executable 
+```shell
 $ cmake --build . -j N
 ```
+The built executable locates in `./build/sol` with file name `VerHam`.
