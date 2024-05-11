@@ -15,7 +15,7 @@ courses:
 
 social:
 - {icon: 'github', link: 'https://github.com/timohyva'}
-- {icon: 'gitlab', link: 'https://github.com/timohyva'}
+- {icon: 'gitlab', link: 'https://gitlab.com/timohyva'}
 - {icon: 'twitter', link: 'https://twitter.com/HpcOrg'}
 
 contacts:
