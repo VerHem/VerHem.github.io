@@ -7,8 +7,17 @@ This page talks about how to get the source of VerHem as well as the other neces
 
 <h3 class="fw-bold border-bottom pb-3 mb-5">Install and Compile</h3>
 
+Getting source tree from GitLab mirror
+------------------
+```shell
+$ git clone https://gitlab.com/verhem/verkko-hem-repo.git
+```
+or from GitHub
 ```shell
 $ git clone https://github.com/VerHem/verkko-Hem-repo.git
+```
+then run **cmake** to configure the build system
+```shell
 $ cd verkko-Hem-repo
 $ mkdir build && cd build
 $ cmake ..
