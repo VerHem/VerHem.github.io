@@ -7,7 +7,7 @@ This page talks about how to get the source of VerHem as well as the other neces
 
 <h3 class="fw-bold border-bottom pb-3 mb-5">Install and Compile</h3>
 
-<h4 class="border-bottom pb-3 mb-5">Getting source tree from repositories</h4>
+<h4 class="border-bottom pb-3 mb-5">Getting source tree, configure and build</h4>
 From [GitLab](https://gitlab.com/verhem/verkko-hem-repo)
 ```shell
 $ git clone https://gitlab.com/verhem/verkko-hem-repo.git
