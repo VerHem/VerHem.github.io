@@ -18,5 +18,3 @@ social:
 - {icon: 'gitlab', link: 'https://gitlab.com/timohyva'}
 - {icon: 'twitter', link: 'https://twitter.com/HpcOrg'}
 
-contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
