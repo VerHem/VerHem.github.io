@@ -23,9 +23,11 @@ $ mkdir build && cd build
 $ cmake ..
 ```
 after then, build the binary executable 
-
+```shell
 $ cmake --build . -j N
-
+```
 The built executable locates in `./build/sol` with file name `VerHem`.
 
+
+--------------
 <h4 class="border-bottom pb-3 mb-5">About dependencies</h4>
