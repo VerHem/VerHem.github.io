@@ -26,7 +26,13 @@ after then, build the binary executable
 ```shell
 $ cmake --build . -j N
 ```
-The built executable locates in `./build/sol` with file name `VerHem`.
+The built executable locates in `./build/sol` with file name `VerHem`. 
+In most case, this work just fine. However, compiling error may happen here or there. For sake of debug, 
+one may add `--verbose` or `-v` in building step i.e.,
+```shell
+$ cmake --build . -j N --verbose
+```
+to checkout object files building and libraries linking. 
 
 
 * * *
