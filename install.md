@@ -27,12 +27,13 @@ after then, build the binary executable
 $ cmake --build . -j N
 ```
 The built executable locates in `./build/sol` with file name `VerHem`. 
-In most case, this work just fine. However, compiling error may happen here or there. For sake of debug, 
-one may add `--verbose` or `-v` in building step i.e.,
+In most case, this work just fine. However, compiling error may still happens here or there. 
+For sake of debugging, one may add `--verbose` or `-v` in building step i.e.,
 ```shell
 $ cmake --build . -j N --verbose
 ```
-to checkout object files building and libraries linking. 
+to checkout object files building and libraries linking. Depending on the system you are working with, the building tool under management of `CMake` may be different.
+On most `GNU/Linux` platforms, `GNU Make` a.k.a `gmake` is used. another building tool which VerHem could use is `ninja`.  
 
 
 * * *
